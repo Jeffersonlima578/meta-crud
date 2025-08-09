@@ -24,6 +24,7 @@
 
         <!-- Espaço em branco para balancear visualmente com o logo -->
         <div style="width: 40px; margin-right: 15px;"></div>
+
     </div>
 </header>
 
@@ -48,12 +49,16 @@
 
         <!-- Aqui vai o conteúdo das páginas -->
         @yield('content')
+
+    <footer class="bg-primary text-white py-3 mt-4 rounded text-center">
+            <hr class="border-white my-2" />
+            <p class="mb-0">Desenvolvimento feito por "JEFERSON GOMES" • META-CRUD © {{ date('Y') }}</p>
+        </footer>
+
+
+
     </div>
 
-    <footer class="text-center mt-5 bg-primary text-white py-3 rounded">
-            <hr class="border-white">
-            <p class="mb-0">Desenvolvimento feito por "JEFERSON GOMES" • META-CRUD © {{ date('Y') }}</p>
-    </footer>
 
 
 
