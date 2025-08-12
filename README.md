@@ -17,8 +17,8 @@ Este projeto implementa um sistema CRUD para gerenciar clientes, com funcionalid
 
 ## Tecnologias Utilizadas
 
-- PHP 8.x
-- Laravel 12.x
+- PHP 8.3
+- Laravel 12
 - Bootstrap 5
 - jQuery e jQuery Mask Plugin para máscara de telefone
 - MySQL (ou outro banco de dados relacional)
